@@ -11,4 +11,4 @@
 - 众多主题
 
 [GitHub](https://github.com/yuri1900/yuri1900.github.io/)
-[开始进入](README)
+[开始进入](README.md)
