@@ -10,5 +10,5 @@
 - 无需生成 html 文件
 - 众多主题
 
-[GitHub](https://github.com/docsifyjs/docsify/)
+[GitHub](https://github.com/yuri1900/yuri1900.github.io/)
 [开始进入](README)
