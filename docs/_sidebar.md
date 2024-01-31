@@ -3,8 +3,8 @@
 * [工作流程](guide)
 
 * 安全措施
-	* [javascript](01/javascript/)
-	* [echarts](01/echarts/)
+	* [1](1/1.1/)
+	* [1](1/1.2/)
 
 * 一次设备
 
