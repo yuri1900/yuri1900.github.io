@@ -19,12 +19,21 @@
       loadNavbar: false,
       coverpage: true,
       onlyCover: true,
+      // 全文搜索
       search: {
             maxAge: 86400000, // 过期时间，单位毫秒，默认一天
             noData: '找不到结果',//搜索不到结果时显示
             paths: 'auto',//自动
             placeholder: '搜索',//搜索框提示
         },
+      // 底部导航
+      pagination: {
+            previousText: "上一页",
+            nextText: "下一页",
+            crossChapter: true,
+            crossChapterText: true,
+        },
+      // 字数统计
       count:{
             countable:true,
             fontsize:'0.9em',
@@ -35,7 +44,17 @@
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- 全文搜索 -->
   <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+  <!-- 字数统计 -->
   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+  <!-- 侧边栏目录折叠 -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+   <!-- 代码复制 -->
+   <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2/dist/docsify-copy-code.min.js"></script>
+   <!-- 底部 上一页下一页 -->
+   <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/external-script.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/ga.min.js"></script>
 </body>
 </html>
