@@ -1,8 +1,9 @@
 <!-- docs/_navbar.md -->
 * [首页](/)
 
-* [操作指南](guide)
+* [工作流程](guide)
 
-* 前端技术
+* 安全措施
 	* [javascript](01/javascript/)
 	* [echarts](01/echarts/)
+

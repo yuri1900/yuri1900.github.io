@@ -7,8 +7,8 @@
 > 数据化存储与快捷搜索工具
 
 - 简单、轻便 
-- 无需生成 html 文件
-- 众多主题
+- 实时
+- 众多内容
 
 [GitHub](https://github.com/yuri1900/yuri1900.github.io/)
 [开始进入](README.md)
