@@ -10,12 +10,10 @@
 
  
 
-## Welcome to the Markdown
+PMS办理工作票（登录PMS——执行任务处理——指派负责人）
 
-##### New feature! Insert pictures in your articles now!
+（1）工作地点应按照班组变电站照片中找位置
 
-You can insert pictures from external links, or upload ones.
+（2）应拉断路器隔离开关应在个人页面下拉业务系统-调度实时系统中查看
 
-The maximum size of the picture to upload is 20M. PNG and JPG are better.
-
-Have any other questions, please contact our official customer service.
+（3）工作地点保留带电部分应按照班组变电站照片中找位置
