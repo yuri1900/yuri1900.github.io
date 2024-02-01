@@ -1,10 +1,10 @@
 - [首页](/README)
 
 * 工作流程
-	* [申请工作](workflow/application for employment permit/)
-	* [办理工作票](workflow/Apply for work ticket/)
-	* [工作前准备](workflow/Preparation before work/)
-	* [标准项目](workflow/Standard operation item/)
+	* [申请工作](workflow/1.1申请工作/)
+	* [办理工作票](workflow/1.2办理工作票/)
+	* [工作前准备](workflow/1.3工作前准备/)
+	* [标准作业项目](workflow/1.4标准作业项目/)
 
 * 安全措施
 	* [常规站]
