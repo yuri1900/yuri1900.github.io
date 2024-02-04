@@ -12,7 +12,7 @@
 		* [330kV主变保护检验](safety-measures/2.1常规站/330kV主变保护检验/)
 		* [330kV整串保护检验](safety-measures/2.1常规站/330kV整串检验/)
 		* [330kV母线保护](safety-measures/2.1常规站/330kV母线保护/)
-	* 智能站(safety-measures/2.2智能站/)
+	* [智能站](safety-measures/2.2智能站/)
 
 
 * 一次设备
