@@ -13,7 +13,8 @@
 	* [智能站](/safety-measures/2.2智能站/)
 
 
-* [一次设备](/primary-equipment/)
+* 一次设备
+	* [相关设备](/primary-equipment/)
 
 
 * 二次回路
