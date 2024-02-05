@@ -17,21 +17,23 @@
   <div id="app">小二努力加载中...</div>
   <script>
     window.$docsify = {
-      name: '现场作业帮',
-      repo: 'https://github.com/yuri1900/yuri1900.github.io',
-      loadSidebar: true,  // 加载侧边栏
+      name: '现场作业帮',  // 项目名称
+      repo: 'https://github.com/yuri1900/yuri1900.github.io', // 仓库地址，点击右上角的Github章鱼猫头像会跳转到此地址
+      loadSidebar: true,  // 加载侧边栏 
       maxLevel: 5,        // 最大支持渲染的标题层级
       subMaxLevel:3,      // 自定义侧边栏后默认不会再生成目录，设置生成目录的最大层级（建议配置为2-4）
       mergeNavbar: false,  // 小屏设备下合并导航栏到侧边栏
       loadNavbar: false,  // 加载导航栏
       coverpage: true,    // 封面支持，默认加载的是项目根目录下的_coverpage.md文件
       onlyCover: true,
-      // 全文搜索
+      /*搜索相关设置*/
       search: {
             maxAge: 86400000, // 过期时间，单位毫秒，默认一天
             noData: '找不到结果',//搜索不到结果时显示
-            paths: 'auto',//自动
+            paths: 'auto',//注意：仅适用于 paths: 'auto' 模式
             placeholder: '搜索',//搜索框提示
+            noData: '找不到结果',
+            hideOtherSidebarContent: false, // 是否隐藏其他侧边栏内容
         },
       // 底部导航
       pagination: {
