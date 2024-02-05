@@ -18,7 +18,7 @@
       loadSidebar: true,  // 加载侧边栏
       maxLevel: 5,        // 最大支持渲染的标题层级
       subMaxLevel:3,      // 自定义侧边栏后默认不会再生成目录，设置生成目录的最大层级（建议配置为2-4）
-      mergeNavbar: true,  // 小屏设备下合并导航栏到侧边栏
+      mergeNavbar: false,  // 小屏设备下合并导航栏到侧边栏
       loadNavbar: false,  // 加载导航栏
       coverpage: true,    // 封面支持，默认加载的是项目根目录下的_coverpage.md文件
       onlyCover: true,
@@ -46,8 +46,8 @@
     }
   </script>
   <!-- Docsify v4 -->
+  <!-- docsify@4.js与docsify.min.js二选一，其中docsify@4.js离线似乎不好用 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script src="https://raw.githack.com/qjln/qiu_doc/main/lib/plugins/docsify.min.js"></script>
   <!-- 搜索功能支持 -->
   <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
   <!-- 字数统计 -->
