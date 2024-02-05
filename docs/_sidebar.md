@@ -1,4 +1,4 @@
-- [首页](/README "The greatest guide in the world")
+- [首页](/README)
 
 * 工作流程
 	* [申请工作](workflow/1.1申请工作/)
