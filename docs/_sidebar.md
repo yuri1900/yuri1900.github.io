@@ -16,10 +16,10 @@
 	* [相关设备](/primary-equipment/)
 
 * 二次回路
-	* [图分类]()
-	* [编号]()
-	* [回路分类]()
-	* [故障排查]()
+	* [图分类](/secondary-circuit/图分类/)
+	* [编号](/secondary-circuit/编号/)
+	* [回路分类](/secondary-circuit/回路分类/)
+	* [故障排查](/secondary-circuit/故障排查/)
 
 * 装置调试
 	* [线路保护](/device-debugging/线路保护/)
@@ -66,77 +66,77 @@
 	* [带负荷测试](/put-into-use/带负荷测试/)
 
 * 保护更换
-	* [主变保护更换]()
-	* [线路保护更换]()
+	* [主变保护更换](/equipment-replacement/主变保护更换/)
+	* [线路保护更换](/equipment-replacement/线路保护更换/)
 
 * 自动化
-	* [二次安防]()
-	* [后台修改]()
-	* [监控系统]()
-	* [自动化]()
-	* [调度数据专网]()
-	* [通信系统]()
+	* [二次安防](/automatic-system/二次安防/)
+	* [后台修改](/automatic-system/后台修改/)
+	* [监控系统](/automatic-system/监控系统/)
+	* [自动化](/automatic-system/自动化/)
+	* [调度数据专网](/automatic-system/调度数据专网/)
+	* [通信系统](/automatic-system/通信系统/)
 
 * 智能站
-	* [术语]()
-    * [SCD文件管控]()
-	* [手持光数字测试仪]()
-    * [光纤光缆]()
-	* [检修机制]()
-    * [VLAN划分]()
+	* [术语](/smart-substation/术语/)
+    * [SCD文件管控](/smart-substation/SCD文件管控/)
+	* [手持光数字测试仪](/smart-substation/手持光数字测试仪/)
+    * [光纤光缆](/smart-substation/光纤光缆/)
+	* [检修机制](/smart-substation/检修机制/)
+    * [VLAN划分](/smart-substation/VLAN划分/)
 
 * 设计审查
-	* [LH相关]()
-    * [YH相关]()
-	* [二次回路相关]()
-    * [智能站相关]()
-	* [违反相关反措]()
-    * [电气图纸审查指引]()
+	* [LH相关](/design-inspection/LH相关/)
+    * [YH相关](/design-inspection/YH相关/)
+	* [二次回路相关](/design-inspection/二次回路相关/)
+    * [智能站相关](/design-inspection/智能站相关/)
+	* [违反相关反措](/design-inspection/违反相关反措/)
+    * [电气图纸审查指引](/design-inspection/电气图纸审查指引/)
 
 * 工作记事
 	* [装置密码](/work-notes/装置密码/)
-    * [后台密码]()
+    * [后台密码](/work-notes/后台密码/)
 
 * 继电保护原理
 	* [线路保护]()
-	* [主变保护]()
-	* [断路器保护]()
-	* [母线保护]()
-	* [电容器保护]()
-	* [备自投装置]()
+	* [主变保护](/principle-of-relay-protection/主变保护/)
+	* [断路器保护](/principle-of-relay-protection/断路器保护/)
+	* [母线保护](/principle-of-relay-protection/母线保护/)
+	* [电容器保护](/principle-of-relay-protection/电容器保护/)
+	* [备自投装置](/principle-of-relay-protection/备自投/)
 
 * 知识点
-	* [一次设备]()
-	* [继电保护]()
-	* [运行操作]()
+	* [一次设备](/knowledge-point/一次设备/)
+	* [继电保护](/knowledge-point/继电保护/)
+	* [运行操作](/knowledge-point/运行操作/)
 
 * 规程规范
 	* [工作标准及依据](/standards/工作标准及依据/)
-	* [国网标准化设计规范]()
-	* [设计审查]()
-	* [验收规范]()
-	* [智能站规范]()
-	* [运行管理规定]()
-	* [技术规范]()
-	* [其他]()
+	* [国网标准化设计规范](/standards/国网标准化设计规范/)
+	* [设计审查](/standards/设计审查/)
+	* [验收规范](/standards/验收规范/)
+	* [智能站规范](/standards/智能站规范/)
+	* [运行管理规定](/standards/运行管理规定/)
+	* [技术规范](/standards/技术规范/)
+	* [其他](/standards/其他/)
 
 * 检查卡
-	* [330kV及以上]()
-	* [110kV及以下]()
+	* [330kV及以上](/check-card/330kV及以上/)
+	* [110kV及以下](/check-card/110kV及以下/)
 
 * 电气计算
-	* [故障计算]()
-	* [进制转换]()
+	* [故障计算](/calculation/故障计算/)
+	* [进制转换](/calculation/进制转换/)
 
 * 故障点快速处置
-	* [控制回路]()
-	* [直流回路]()
-	* [装置外观]()
-	* [保护装置]()
-	* [测试仪器]()
+	* [控制回路](/quick-disposal-of-fault-points/控制回路/)
+	* [直流回路](/quick-disposal-of-fault-points/直流回路/)
+	* [保护装置](/quick-disposal-of-fault-points/保护装置/)
+	* [测试仪器](/quick-disposal-of-fault-points/测试仪器/)
 
 * 题库
-
+	* [继电保护](/question-bank/继电保护/)
+	* [交直流系统](/question-bank/交直流系统/)
 * 联系我们
 	* [联系方式](/contact-us/)
-	* [参考文献]()
+	* [参考文献](/contact-us/参考文献/)
