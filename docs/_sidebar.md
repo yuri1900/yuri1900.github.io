@@ -51,7 +51,7 @@
 	* [小电阻验收](/equipment-acceptance/小电阻验收/)
 	* [网络设备验收](/equipment-acceptance/网络设备验收/)
 	* [智能设备验收](/equipment-acceptance/智能设备验收/)
-	* [把手遥控功能验收]/equipment-acceptance/把手遥控功能验收/)
+	* [把手遥控功能验收](/equipment-acceptance/把手遥控功能验收/)
 	* [直流系统验收](/equipment-acceptance/直流系统验收/)
 	* [断链验收](/equipment-acceptance/断链验收/)
 	* [远动对点](/equipment-acceptance/远动对点/)
