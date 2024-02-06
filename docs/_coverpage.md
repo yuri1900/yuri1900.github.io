@@ -10,5 +10,4 @@
 - 实时
 - 众多内容
 
-[GitHub](https://github.com/yuri1900/yuri1900.github.io/)
 [开始进入](README.md)
