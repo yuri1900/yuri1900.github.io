@@ -59,7 +59,7 @@
         },
       markdown: {
         renderer:{
-            code: function(code, lang){
+          code: function(code, lang){
             	if(lang=='drawio') {
                 if(window.drawioConverter){
                   console.log('drawio转化中')
@@ -67,7 +67,8 @@
                 }else{
                   return `<div class='drawio-code'>$(code)</div>`
                 }
-              } else if(lang==='pdf'){
+              } 
+              else if(lang==='pdf'){
                   var pdf_renderer = function(code, lang, verify) {
                       function unique_id_generator(){
                         function rand_gen(){
@@ -96,12 +97,12 @@
 		              return false;
               }
               if(pdf_renderer(code, lang, true)){
-                return pdf_renderer(code, lang, false);
+                  return pdf_renderer(code, lang, false);
               }
             }
-            else{
-              return this.origin.code.apply(this,arguments);
-            }
+              else{
+                return this.origin.code.apply(this,arguments);
+              }
           }
         }
       },
