@@ -106,7 +106,7 @@
 	* [备自投装置](/principle-of-relay-protection/备自投/)
 
 * 知识点
-	* [一次设备](/knowledge-point/电工基础/)
+	* [电工基础](/knowledge-point/电工基础/)
 	* [一次设备](/knowledge-point/一次设备/)
 	* [继电保护](/knowledge-point/继电保护/)
 	* [运行操作](/knowledge-point/运行操作/)
