@@ -141,7 +141,7 @@
 	* [纵差线路保护对调](/device-debugging-method/纵差线路保护对调/)
 	* [断路器辅助保护](/device-debugging-method/断路器辅助保护/)
 	* [短引线保护](/device-debugging-method/短引线保护/)
-	* [变压器保护](/device-debugging-method/变压器保护调试方法/)
+	* [变压器保护](/device-debugging-method/变压器保护/)
 	* [母线保护](/device-debugging-method/母线保护/)
 	* [通用调试方法](/device-debugging-method/通用调试方法/)
 
