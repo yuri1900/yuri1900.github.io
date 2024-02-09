@@ -135,6 +135,16 @@
 	* [保护装置](/quick-disposal-of-fault-points/保护装置/)
 	* [测试仪器](/quick-disposal-of-fault-points/测试仪器/)
 
+* 西北电网常用继电保护调试方法
+	* [线路保护](/device-debugging-method/线路保护/)
+	* [远跳装置](/device-debugging-method/远跳装置/)
+	* [纵差线路保护对调](/device-debugging-method/纵差线路保护对调/)
+	* [断路器辅助保护](/device-debugging-method/断路器辅助保护/)
+	* [短引线保护](/device-debugging-method/短引线保护/)
+	* [变压器保护](/device-debugging-method/变压器保护调试方法/)
+	* [母线保护](/device-debugging-method/母线保护/)
+	* [通用调试方法](/device-debugging-method/通用调试方法/)
+
 * 题库
 	* [继电保护](/question-bank/继电保护/)
 	* [交直流系统](/question-bank/交直流系统/)
