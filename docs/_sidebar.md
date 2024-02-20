@@ -102,6 +102,7 @@
 	* [主变保护](/principle-of-relay-protection/主变保护/)
 	* [断路器保护](/principle-of-relay-protection/断路器保护/)
 	* [母线保护](/principle-of-relay-protection/母线保护/)
+	* [母联保护](/principle-of-relay-protection/母联保护/)
 	* [电容器保护](/principle-of-relay-protection/电容器保护/)
 	* [备自投装置](/principle-of-relay-protection/备自投/)
 
