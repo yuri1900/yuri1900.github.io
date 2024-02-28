@@ -129,6 +129,8 @@
 * 电气计算
 	* [故障计算](/calculation/故障计算/)
 	* [进制转换](/calculation/进制转换/)
+	* [带负荷测试](/calculation/主变保护带负荷检查/)
+	* [主变差动计算](/calculation/主变差动计算)
 
 * 故障点快速处置
 	* [控制回路](/quick-disposal-of-fault-points/控制回路/)
