@@ -64,6 +64,11 @@
         color:"var(--theme-color,#42b983)",
         height:"3px",
       },
+
+      latex: {
+        inlineMath   : [['$', '$'], ['\\(', '\\)']], // default
+        displayMath  : [['$$', '$$']],               // default
+      },
       
       //
       markdown: {
@@ -116,40 +121,6 @@
         }
       },
 
-      plugins: [
-          function (hook) {
-            // 支持$$
-            hook.doneEach(function () {
-              if (typeof MathJax !== "undefined") {
-                MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
-              }
-            });
-            // 支持$``$
-            hook.beforeEach(function (content) {
-              return content.replace(/\$`.*`\$/g, function (a) {
-                return a.replace("`", "").replace("`", "");
-              });
-            });
-            // 支持```math```块
-            hook.beforeEach(function (content) {
-              return content.replace("\r\n","\n");
-            });
-            hook.beforeEach(function (content) {
-              return content.replace("\r","\n");
-            });
-            hook.beforeEach(function (content) {
-              c = content.replace(
-                /```math\n[^`]*\n```/g,
-                function (a) {
-                  return a
-                    .replace("```math", "\$\$\$\$")
-                    .replace("```", "\$\$\$\$");
-                }
-              );
-              return c
-            });
-          },
-        ],
     }
   </script>
 
@@ -212,12 +183,7 @@
   <!-- or use this if you are not hosting the file yourself -->
   <script src="//unpkg.com/docsify-pdf-embed-plugin/src/docsify-pdf-embed.js"></script>
   <!-- 插入公式 -->
-  <!-- CDN files for docsify-katex -->
-  <!--script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script-->
-  <script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex@latest/dist/docsify-katex.js"></script>
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
-  <!--MathJax数学公式支持-->
-  <script src="//cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-  
+  <!-- LaTeX display engine script Here -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-latex@0"></script>
 </body>
 </html>
