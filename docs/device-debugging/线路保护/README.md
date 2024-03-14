@@ -88,7 +88,7 @@ b）**通道远方环回试验功能**：为方便用户进行带通道整组试
 
  
 
-***\*电流差动保护装置与通信系统的连接方式\****
+**电流差动保护装置与通信系统的连接方式**
 
 连接有复用方式和专用方式两种。
 
@@ -102,23 +102,34 @@ b）**通道远方环回试验功能**：为方便用户进行带通道整组试
 
 试验方法：加单相电流5s左右，看自检信息报CT断线，同时报闭锁差动，此时抬高电流到定值，差动动作。
 
+**Tips:**
+
+装置自环时，进行CT断线闭锁差动保护试验，试验结果显示闭锁不住断线相？
+
+在装置自环试验时，断线相再加入电流后，由于处于自环状态，保护装置认为两侧均已恢复正常（100ms即可恢复），不处于断线状态，故动作行为显示。
+
+CT断线闭锁差动保护需要两台保护模拟本对侧进行试验，一般来说，现场由于本对侧电流相位无保障，所以现场无法本对侧联调，但是某侧有多台同型设备，可以利用站内设备进行联调。只有这样才可以的。
+
 #### 3 接地距离保护
 
 在进行接地距离保护测试时，必须根据保护装置零序补偿系数的不同表达方式，对测试仪的零序补偿系数K1进行相应的设置，具体装置的设置方法如下：
 
-1. RCS系列线路保护装置
+1. 南瑞继保RCS系列线路保护装置
 
 定值清单里提供的零序补偿系数为K（实数）。
 
-![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps18.png)（式7-1）
+$$
+K_l=\frac{Z_{l0}-Z_{l1}}{3*Z_l1} =Re(K_l)+jIm(K_i)=|K_l|∠\phi
+$$
+（式7-1）
 
 故在昂立测试仪里，应选择K1的设置方式为：（Z0-Z1）/3Z1，K1幅值取定值清单里的零序补偿系数K，K1角度为0°。
 
-2. WXB，CSL，PSL系列线路保护装置
+2. WXB，北京四方CSL，国电南自PSL系列线路保护装置
 
-定值清单里提供的零序补偿系数相关定值为![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps19.png)和![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps20.png)。
+定值清单里提供的零序补偿系数相关定值为
 
-![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps21.png)，![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps22.png)（式7-2）
+（式7-2）
 
 注意，![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps23.png)，![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps24.png)并不能代表零序补偿系数K1的实部和虚部，由![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps25.png)，![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps26.png)到K1的换算为
 
