@@ -2,6 +2,33 @@
 
 （1）二次纯验收的时间安排，以110kV智能变为例：
 
+```mermaid
+gantt
+	title 110kV智能站验收
+	dateFormat YYYY-MM-DD
+	section 极性
+	110kV打极性:a1,2023-05-09,1d
+	10KV打极性:a2,after a1,1d
+	section 通流
+	110KV线路:a3,after a2,1d
+	section 调试
+	主变保护调试:a4,after a3,1d
+	母差保护调试:a5,after a4,1d
+	备自投保护调试:a6,after a5,1d
+	section 消缺
+	消缺遗留问题:a7,after a6,2d
+    section 对调
+	110kV线路对调:a8,after a7,1d
+	section 传动
+	保护带开关传动:a9,after a8,2d
+	section 投运
+	带负荷测试:a10,after a9,1d
+	
+	
+	
+```
+
+
 第1天 装置外观、安装工艺、标识，电缆接线、标牌，光纤标签、图表抽检，110kV GIS打极性 
 
 第2天 10kV所有间隔及主变本体LH、间隙LH打极性
