@@ -11,8 +11,6 @@
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
   <!-- 默认主题 -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <!-- Mermaid -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css">
   
 </head>
 <body>
@@ -82,7 +80,6 @@
       markdown: {
         renderer:{
           code: function(code, lang){
-
             	if(lang=='drawio') {
                 if(window.drawioConverter){
                   console.log('drawio转化中')
@@ -130,8 +127,6 @@
         }
       },
   
-
-
     }
   </script>
 
@@ -204,7 +199,6 @@
   <!-- or <script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex@latest/dist/docsify-katex.js"></script> -->
   <!-- 回到顶部 -->
   <script src="https://cdn.jsdelivr.net/gh/Sumsung524/docsify-backTop/dist/docsify-backTop.min.js"></script>
-  <!-- Mermaid -->
-  <script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+
 </body>
 </html>
