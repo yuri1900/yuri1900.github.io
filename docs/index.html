@@ -64,6 +64,15 @@
         color:"var(--theme-color,#42b983)",
         height:"3px",
       },
+
+      //回到顶部
+      docsifyBackTop:{
+        size:32,  //组件大小
+        bottom:15,  //组件底部偏移距离
+        right:15,   //组件右侧偏移距离
+        logo:'top',  //字符串活SVG矢量图代码，默认为svg代码图标
+        bgColor:'#42b983' //背景颜色，logo为svg图标时，不填。
+      },
       
       //
       markdown: {
@@ -186,5 +195,7 @@
   <!-- CDN files for docsify-katex -->
   <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
   <!-- or <script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex@latest/dist/docsify-katex.js"></script> -->
+  <!-- 回到顶部 -->
+  <script src="https://cdn.jsdelivr.net/gh/Sumsung524/docsify-backTop/dist/docsify-backTop.min.js"></script>
 </body>
 </html>
