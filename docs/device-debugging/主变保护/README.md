@@ -190,11 +190,7 @@
 
 加入高压侧电流：
 
- 	高  A相A![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps88.png)
-
-加入低压侧电流：***\*1.3\****×![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps89.png)
-
-低  A相![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps91.png) C相![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps92.png)
+加入低压侧电流：
 
 | 状态1参数设置   |                | 状态触发条件  |
 | --------------- | -------------- | ------------- |
@@ -202,20 +198,20 @@
 | UB：57.74∠-120º | IB：0.00∠0.00º |               |
 | UC：57.74∠120º  | IC：0.00∠0.00º |               |
 
- 
+
 
 2）降低I2
 
-![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps93.png)  动作
+ 动作
 
-| ***\*设置项\**** | ***\*幅值\**** | ***\*相位\**** |
-| ---------------- | -------------- | -------------- |
-| Ua               | 0              | 0°             |
-| Ub               | 0              | 0°             |
-| Uc               | 0              | 0°             |
-| Ia               |                | 0°             |
-| Ib               |                | 180°           |
-| Ic               |                | 0°             |
+| **设置项** | **幅值** | **相位** |
+| ---------- | -------- | -------- |
+| Ua         | 0        | 0°       |
+| Ub         | 0        | 0°       |
+| Uc         | 0        | 0°       |
+| Ia         |          | 0°       |
+| Ib         |          | 180°     |
+| Ic         |          | 0°       |
 
 ②测试动作点2
 
@@ -229,15 +225,13 @@
 
 加入高压侧电流：
 
-高 A相A![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps114.png)
+高 A相
 
-加入低压侧电流：***\*2.55\****×![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps115.png)
-
-  低 A相![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps117.png) C相![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps118.png)
+加入低压侧电流：
 
 根据相位校正的关系将继电保护测试仪的电流输出端接入保护装置的交流电流端子。假如测试仪仅可以提供三个电流，则每一侧只可以加入单相或者两相电流进行检验。
 
-![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps119.png
+
 
 | 参数设置    |                | 状态触发条件： |
 | ----------- | -------------- | -------------- |
@@ -259,7 +253,7 @@
 
 在高压侧加电流，AB相加电流
 
-（电流加在主变的哪一侧，![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps124.png)就取本侧的![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps125.png)值)，将设置量加进保护装置，差动速断保护可靠动作；0.95倍不动作。
+（电流加在主变的哪一侧，就取本侧的值)，将设置量加进保护装置，差动速断保护可靠动作；0.95倍不动作。
 
 注意：试验接线同比率差动保护试验，如果咋高压侧加单相电流，则动作值需要再乘以3/2即1.5。（高压侧每相都要减去零序电流I0）
 
@@ -407,7 +401,7 @@
 
 当外部保护动作接点经失灵联跳开入接点进入装置后，经过装置内部灵敏的、不需整定的电流元件并带50ms延时跳变压器各侧断路器。
 
-![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps126.jpg) 
+ 
 
 电流元件判据：相电流大于1.1倍Ie（高压侧额定电流），或零序电流大于0.1倍In，或负序电流大于0.1In，或电流突变量判据满足。
 
