@@ -109,7 +109,7 @@
     * [后台密码](/work-notes/后台密码/)
 
 * 继电保护原理
-	* [线路保护]()
+	* [线路保护](/principle-of-relay-protection/线路保护/)
 	* [主变保护](/principle-of-relay-protection/主变保护/)
 	* [断路器保护](/principle-of-relay-protection/断路器保护/)
 	* [母线保护](/principle-of-relay-protection/母线保护/)
