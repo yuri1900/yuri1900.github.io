@@ -9,8 +9,8 @@ idea诞生了
 2.增加回到顶部；
 ## 2024-03-25
 1.集成docsify-ads插件，支持广告；
-
-
+2.集成docsify-baidu-tj插件，支持百度统计；
+3.集成docsify-drawio插件，显示drwaio图形；
 
 
 
