@@ -30,13 +30,9 @@
 
 母联合位，进线1分位，进线2合位，合上YH刀闸
 
-![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps136.png)
-
 备自投的电压采的是保护第1组电压，
 
 在I母YH柜，模拟I II母线失压，进线1有压，备自投动作。
-
-![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps137.png)
 
  
 
@@ -50,9 +46,7 @@
 
 ### 故障排查
 
- 
 
-![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps138.png)
 
 10kV分段备自投跳主变低压侧开关，错误的接到手跳，会报开关偷跳
 
