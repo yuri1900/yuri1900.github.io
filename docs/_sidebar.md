@@ -132,6 +132,7 @@
 	* [验收规范](/standards/验收规范/)
 	* [智能站规范](/standards/智能站规范/)
 	* [运行管理规定](/standards/运行管理规定/)
+	* [整定计算](/standards/整定计算/)
 	* [技术规范](/standards/技术规范/)
 	* [检验规程](/standards/检验规程/)
 	* [其他](/standards/其他/)

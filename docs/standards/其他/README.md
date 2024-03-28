@@ -20,7 +20,7 @@ e) 光纤标签注明对侧连接端口，详见4范例说明。
 
 3. 图示、标牌、标签的位置配备范例：
 
-![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps1.png)
+
 
 4. 范例：
 
@@ -34,19 +34,15 @@ a) 图示1：智能装置背板标识标明对侧最末终端装置连接位置
 
   例2：
 
-![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps2.jpg) 
 
 b) 图示2：交换机光端口标识标明对侧设备和报文类型，双圆口表示为ST光端口，双方口表示为LC光端口，单方口表示为RJ45电端口。
 
 例1：
 
-![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps3.png)
 
 c) 图示3：光纤配线盒标识标明对侧柜名+熔纤盒名/端口号
 
 例1：
-
-![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps4.png)
 
  
 
@@ -54,7 +50,6 @@ d) 光缆标牌标明光缆编号、类型、光纤纤芯使用情况、起点�
 
 例1：
 
-![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps5.png) 
 
 e) 标签标明尾纤、尾缆两端所连接装置位置
 
@@ -68,18 +63,14 @@ E：装置名称及IED名称-装置型号-通信板标识-端口号收；
 
 两侧同为智能设备时基本格式：
 
-![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps6.jpg) 
 
  一侧为智能设备，一侧为交换机时基本格式：
 
-![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps7.jpg) 
-
  一侧为智能设备，一侧为熔纤盒时基本格式：
 
-![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps8.jpg) 
 
  
 
-### 附录2
+### 2《国家电网公司继电保护和安全自动装置缺陷管理办法》（国网（调/4）527-2014）
 
 消缺工作应按照《国家电网公司继电保护和安全自动装置缺陷管理办法》（国网（调/4）527-2014）执行，危急缺陷消缺时间不超过24小时，严重缺陷消缺时间不超过72小时，一般缺陷消缺时间不超过一个月，并尽量缩短消缺时间。（故也同时要求双重化配置的保护装置，单套运行时间不宜超过24小时）

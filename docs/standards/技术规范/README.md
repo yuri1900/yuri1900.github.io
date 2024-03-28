@@ -11,47 +11,47 @@
 8.2.2.4 110（66）kV及以上电压等级典型记录信息。包含但不限于如下内容：
 
 a）模拟量输入及混合信号输入动态记录装置：
-1）各段母线电压![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps9.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps10.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps11.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps12.png)；
+1）各段母线电压$U_a$、$U_b$、$U_c$、$3U_0$；
 
-2）各间隔电压![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps13.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps14.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps15.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps16.png)；
+2）各间隔电压$U_a$、$U_b$、$U_c$、$3U_0$；
 
-3）线路、旁路、母联和分段间隔电流![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps17.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps18.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps19.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps20.png)；
+3）线路、旁路、母联和分段间隔电流$I_a$、$I_b$、$I_c$、$3I_0$；
 
-4）变压器各侧绕组（含自耦变公共绕组）、分支电流![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps21.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps22.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps23.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps24.png)；
+4）变压器各侧绕组（含自耦变公共绕组）、分支电流$I_a$、$I_b$、$I_c$、$3I_0$；
 
-5）变压器各侧中性点零序电流，间隙电流![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps25.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps26.png)；
+5）变压器各侧中性点零序电流，间隙电流$I_0$、$I_j$；
 
-6）高压并联电抗器电流![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps27.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps28.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps29.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps30.png)；
+6）高压并联电抗器电流$I_a$、$I_b$、$I_c$、$3I_0$；
 
-7）高压并联电抗器中性点接地小电抗电流![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps31.png)；
+7）高压并联电抗器中性点接地小电抗电流$I_0$；
 
-8）双断路器接线的各断路器电流![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps32.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps33.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps34.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps35.png)；
+8）双断路器接线的各断路器电流$I_a$、$I_b$、$I_c$、$3I_0$；
 
 9）线路纵联保护专用载波高频通道模拟电平信号；
 
-10）变电站内各组保护用直流电源母线正对地和负对地的直流电源电压量![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps36.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps37.png)。
+10）变电站内各组保护用直流电源母线正对地和负对地的直流电源电压量$Z_L+$、$Z_L-$。
 
 b）数字量输入动态记录装置：
 
-1）各段母线电压![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps38.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps39.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps40.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps41.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps42.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps43.png)；
+1）各段母线电压$U_{a1}$、$U_{b1}$、$U_{c1}$、$U_{a2}$、$U_{b2}$、$U_{c2}$；
 
-2）各间隔电压![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps44.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps45.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps46.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps47.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps48.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps49.png)；
+2）各间隔电压$U_{a1}$、$U_{b1}$、$U_{c1}$、$U_{a2}$、$U_{b2}$、$U_{c2}$；
 
-3）各线路、旁路、母联以及分段间隔的相电流![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps50.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps51.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps52.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps53.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps54.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps55.png)；
+3）各线路、旁路、母联以及分段间隔的相电流$I_{a1}$、$I_{b1}$、$I_{c1}$、$I_{a2}$、$I_{b2}$、$I_{c2}$；
 
-4）变压器各侧绕组（含自耦变公共绕组）、分支电流![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps56.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps57.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps58.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps59.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps60.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps61.png)；
+4）变压器各侧绕组（含自耦变公共绕组）、分支电流$I_{a1}$、$I_{b1}$、$I_{c1}$、$I_{a2}$、$I_{b2}$、$I_{c2}$；
 
-5）变压器各侧中性点零序电流，间隙电流![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps62.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps63.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps64.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps65.png)；
+5）变压器各侧中性点零序电流，间隙电流$I_{01}$、$I_{02}$、$I_{j1}$、$I_{j2}$；
 
-6）高压并联电抗器电流![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps66.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps67.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps68.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps69.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps70.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps71.png)；
+6）高压并联电抗器电流$I_{a1}$、$I_{b1}$、$I_{c1}$、$I_{a2}$、$I_{b2}$、$I_{c2}$；
 
-7）高压并联电抗器中性点接地小电抗电流![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps72.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps73.png)；
+7）高压并联电抗器中性点接地小电抗电流$I_{01}$、$I_{02}$；
 
-8）双断路器接线的各断路器电流![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps74.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps75.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps76.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps77.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps78.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps79.png)；
+8）双断路器接线的各断路器电流$I_{a1}$、$I_{b1}$、$I_{c1}$、$I_{a2}$、$I_{b2}$、$I_{c2}$；
 
 9）线路纵联保护专用载波高频通道模拟电平信号；
 
-10）变电站内各组保护用直流电源母线正对地和负对地的直流电源电压量![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps80.png)、![img](file:///C:\Users\15492\AppData\Local\Temp\ksohtml3412\wps81.png)。
+10）变电站内各组保护用直流电源母线正对地和负对地的直流电源电压量$Z_L+$、$Z_L-$。
 
 8.2.2.5 应记录小电阻接地系统中接地变压器的零序电流。
 
@@ -91,3 +91,5 @@ d）每台变压器、高压并联电抗器配置一套本体智能终端，本�
 e）智能终端采用就地安装方式，放置在智能控制柜中；
 
 f）智能终端跳合闸出口回路应设置硬压板。
+
+110kV智能变电站变压器电量保护宜采用主、后备保护一体化双套配置，其技术实施方案图如图4-5所示。
