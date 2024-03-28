@@ -25,131 +25,55 @@
 
 1、修改之前首先做一个修改之前的备份，linux 系统下桌面主文件夹/csgc3000sa/usr /工程文件夹，最后修改完后同样拷贝这个文件夹里的工程做备份。
 
-![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps276.jpg) 
-
- 
-
 2、Linux 系统备份，拷贝 csgc3000sa/usr 里面的工程比如puxinbian可以点击右键压缩/压缩到，名字自己命名，一般在后面加上日期方便查找，比如 puxibian20220629
 
-![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps277.jpg) 
-
- 
-
- 
-
- 
 
 运行界面下进入编辑
 
- 
 
 运行界面下找到四方小图标右键，选择“配置工具”，选择最下面的建模组态，用户名、密码均为admin
-
-![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps278.jpg) 
 
 修改间隔名称
 
 1、点击模型数据管理，见下图，双击“公司：电网公司”
 
-![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps279.png) 
-
 2、找到需要修改间隔名称的间隔，右键，更改别名进行修改。
-
-![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps280.png) 
 
 3、见下图，然后点左上角保存。
 
- 
-
-![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps281.png) 
-
 修改遥测变比（如不涉及更改可以忽略）
-
-![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps282.png) 
 
 1、单击右上角模型数据库，单击 SCADA 库，实时监视与统计，修改变比，单击遥测，找到相应间隔。
 
-![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps283.png) 
-
-
-
 2、找到系数一列，找到电流，修改变比，比如变比如果是 400/5就填 80，同时需要修改有功和无功的系数，有功和无功系数是，电压系数×电流系数/1000，（注意，一般电流单位为安 A，电压为千伏 kV，有功为兆瓦 MW，无功为兆乏 MVar）。更改完毕后点保存表数据。
 
-![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps284.png) 
-
-3、然后左上角点击保存所有，确定
-
-![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps285.png) 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
+3、然后左上角点击保存所有，确定 
 
 修改遥信描述（如不涉及更改可以忽略）
 
 点击遥信选择相应间隔，修改别名，然后点击保存数据表，然后同遥测保存步骤，左上角保存，确定，然后左上角保存所有，确定。
 
-![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps286.png) 
-
 修改遥控编号（如不涉及更改可以忽略）
 
 点击遥控选择相应间隔，修改别名，然后点击保存数据表，然后同遥测保存步骤，左上角保存，确定，然后左上角保存所有，确定。
-
-![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps287.png) 
 
 修改图形
 
 1、点击图形组态工具，双击主接线图或启动画面找到主接线图
 
-![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps288.png) 
-
 2、上面有一个小手实时平移图标单击可以拖动图形。
-
-![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps289.png) 
 
 3、找到相应设备停止，右键左键单击相应设备，比如漳容 1，修改名称和别名（注意名称和别名要一样），确定，修改完毕后，左上角点击保存所有。
 
- 
-
-![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps290.png)![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps291.png) 
-
 4、同样，打开分图，对分图进行修改，修改完毕后，左上角点击保存，保存所有。
-
-![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps292.png) 
-
-![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps293.png) 
 
 5、打开全站通讯图，双击需要修改名字的间隔，对间隔名进行修改，修改完毕后，左上角点击保存，保存所有。
 
-![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps294.png) 
-
 6、全部修改完后，单击保存，确定，保存所有，确定。
-
-![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps295.png) 
 
 同步到其它监控主机
 
-点击工程文件发布，弹出画面勾选config、gragh。勾选所有主机名称scada*。点击“连接”，连接状态显示“已经连接”，点击“开始传输”。![img](file:///C:\Users\yuri\AppData\Local\Temp\ksohtml22920\wps296.jpg)
+点击工程文件发布，弹出画面勾选config、gragh。勾选所有主机名称scada。点击“连接”，连接状态显示“已经连接”，点击“开始传输”。
 
 同步到其它监控主机
 
@@ -168,8 +92,6 @@
 在终端输入→cfgtool回车→用户：a   密码：a→厂站配置→间隔配置→修改后保存→图形组态里修改→主接线图；画面索引；间隔图；注：数据连接和按钮参数全要改
 
 Beifen ：dbManager   dbManager   127.0.0.1左键打开→nari
-
- 
 
 ### **NS2000（南瑞科技）**
 
